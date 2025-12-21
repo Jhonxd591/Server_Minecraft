@@ -1,0 +1,1171 @@
+[21Dec2025 03:50:32.419] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.13, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[21Dec2025 03:50:32.423] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[21Dec2025 03:50:39.916] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[21Dec2025 03:50:39.995] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server_Minecraft/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[21Dec2025 03:50:40.557] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server_Minecraft/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.13/fmlcore-1.20.1-47.4.13.jar is missing mods.toml file
+[21Dec2025 03:50:40.558] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server_Minecraft/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.13/javafmllanguage-1.20.1-47.4.13.jar is missing mods.toml file
+[21Dec2025 03:50:40.559] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server_Minecraft/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.13/lowcodelanguage-1.20.1-47.4.13.jar is missing mods.toml file
+[21Dec2025 03:50:40.560] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server_Minecraft/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.13/mclanguage-1.20.1-47.4.13.jar is missing mods.toml file
+[21Dec2025 03:50:41.173] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: architectury. Using Mod File: /workspaces/Server_Minecraft/servidor_minecraft/mods/architectury-9.2.14-forge.jar
+[21Dec2025 03:50:41.173] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: playeranimator. Using Mod File: /workspaces/Server_Minecraft/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar
+[21Dec2025 03:50:41.174] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
+[21Dec2025 03:50:44.149] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21Dec2025 03:50:44.172] [main/ERROR] [mixin/]: Mixin config palladiumcore-common.mixins.json does not specify "minVersion" property
+[21Dec2025 03:50:44.176] [main/ERROR] [mixin/]: Mixin config palladiumcore.mixins.json does not specify "minVersion" property
+[21Dec2025 03:50:44.281] [main/ERROR] [mixin/]: Mixin config geckoanimfix.forge.mixins.json does not specify "minVersion" property
+[21Dec2025 03:50:44.362] [main/ERROR] [mixin/]: Mixin config vc_gliders-common.mixins.json does not specify "minVersion" property
+[21Dec2025 03:50:44.364] [main/ERROR] [mixin/]: Mixin config vc_gliders.mixins.json does not specify "minVersion" property
+[21Dec2025 03:50:44.389] [main/ERROR] [mixin/]: Mixin config mixins.eso.json does not specify "minVersion" property
+[21Dec2025 03:50:44.491] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[21Dec2025 03:50:44.492] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[21Dec2025 03:50:44.496] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[21Dec2025 03:50:44.505] [main/WARN] [mixin/]: Reference map 'grapplemod.refmap.json' for grapplemod.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Dec2025 03:50:44.512] [main/WARN] [mixin/]: Reference map 'parcool_compat_addon.refmap.json' for parcool_compat_addon.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Dec2025 03:50:44.675] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.25.2+mc1.20.1: 98 options available, 0 override(s) found
+[21Dec2025 03:50:44.677] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[21Dec2025 03:50:44.692] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[21Dec2025 03:50:44.859] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
+[21Dec2025 03:50:44.861] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
+[21Dec2025 03:50:44.881] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Dec2025 03:50:44.932] [main/WARN] [mixin/]: Reference map 'taczadditions.refmap.json' for taczadditions.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Dec2025 03:50:45.015] [main/WARN] [mixin/]: Reference map 'mixins.wither_spawn_animation.refmap.json' for mixins.wither_spawn_animation.json could not be read. If this is a development environment you can ignore this message
+[21Dec2025 03:50:45.530] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[21Dec2025 03:50:45.563] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[21Dec2025 03:50:46.681] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/ItemInHandRenderer for invalid dist DEDICATED_SERVER
+[21Dec2025 03:50:46.681] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/ItemInHandRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/ItemInHandRenderer for invalid dist DEDICATED_SERVER)
+[21Dec2025 03:50:46.682] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.ItemInHandRenderer was not found dungeonnowloading.forge.mixins.json:items.ItemInHandRendererMixin
+[21Dec2025 03:50:46.837] [main/WARN] [mixin/]: Error loading class: weather2/weathersystem/wind/WindManager (java.lang.ClassNotFoundException: weather2.weathersystem.wind.WindManager)
+[21Dec2025 03:50:46.837] [main/WARN] [mixin/]: @Mixin target weather2.weathersystem.wind.WindManager was not found waves.mixins.json:WindManagerMixin
+[21Dec2025 03:50:46.840] [main/WARN] [mixin/]: Error loading class: weather2/weathersystem/storm/TornadoHelper (java.lang.ClassNotFoundException: weather2.weathersystem.storm.TornadoHelper)
+[21Dec2025 03:50:46.840] [main/WARN] [mixin/]: @Mixin target weather2.weathersystem.storm.TornadoHelper was not found waves.mixins.json:TornadoHelperMixin
+[21Dec2025 03:50:47.212] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via me.kall.duplicationless.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[21Dec2025 03:50:47.833] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (20.26 s after launch)
+[21Dec2025 03:50:48.090] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[21Dec2025 03:50:48.091] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[21Dec2025 03:50:48.192] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[21Dec2025 03:50:48.192] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[21Dec2025 03:50:48.627] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[21Dec2025 03:50:48.628] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[21Dec2025 03:50:50.091] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2254 milliseconds
+[21Dec2025 03:50:50.821] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[21Dec2025 03:50:50.822] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[21Dec2025 03:50:51.330] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin::handler$zbb000$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[21Dec2025 03:50:53.329] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping dungeonnowloading.forge.mixins.json:forge.structures.StructurePoolMixin->@ModifyConstant::dungeonnowloading_increaseWeightLimit(I)I with priority 1000, already redirected by yungsapi_forge.mixins.json:IncreaseStructureWeightLimitMixinForge->@ModifyConstant::yungsapi_increaseWeightLimit(I)I with priority 1000
+[21Dec2025 03:50:54.231] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixesFeature
+[21Dec2025 03:50:54.237] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
+[21Dec2025 03:50:54.272] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TimeStopNoPlayerOnline
+[21Dec2025 03:50:54.303] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.betterfallingblocks.BetterFallingBlocks
+[21Dec2025 03:50:54.481] [modloading-worker-0/INFO] [com.raiiiden.taczadditions.config.TacZAdditionsConfig/]: Registering TacZ Additions config files
+[21Dec2025 03:50:54.537] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[21Dec2025 03:50:54.563] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.AnimalScaredAttack
+[21Dec2025 03:50:54.570] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.AnimalsPanic
+[21Dec2025 03:50:54.578] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.NotTemptedAnimals
+[21Dec2025 03:50:54.580] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.blaze.BlazeAttack
+[21Dec2025 03:50:54.586] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.bugs.silverfish.mergewithstone.SilverfishMergeWithStone
+[21Dec2025 03:50:54.587] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.bugs.silverfish.wakeupfriends.SilverfishWakeUpFriends
+[21Dec2025 03:50:54.595] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.creeper.DisableFallingSwelling
+[21Dec2025 03:50:54.600] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.creeper.TNTLike
+[21Dec2025 03:50:54.602] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.creeper.launch.CreeperLaunch
+[21Dec2025 03:50:54.605] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[21Dec2025 03:50:54.607] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.creeper.swell.CreeperSwell
+[21Dec2025 03:50:54.617] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.drowned.BetterDrownedSwimUp
+[21Dec2025 03:50:54.619] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.drowned.DrownedAttackDuringDay
+[21Dec2025 03:50:54.621] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.drowned.SunResistantDrowned
+[21Dec2025 03:50:54.627] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.drowned.drowningtargets.DrowningTargets
+[21Dec2025 03:50:54.633] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.ghast.GhastShooting
+[21Dec2025 03:50:54.634] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.RavagerFeature
+[21Dec2025 03:50:54.638] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.shoot.PillagerShoot
+[21Dec2025 03:50:54.641] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.AirSteal
+[21Dec2025 03:50:54.645] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.BitingMobs
+[21Dec2025 03:50:54.650] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.FireImmuneTicks
+[21Dec2025 03:50:54.653] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.FleeTarget
+[21Dec2025 03:50:54.658] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.ItemDisruption
+[21Dec2025 03:50:54.662] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Jump
+[21Dec2025 03:50:54.668] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Leaders
+[21Dec2025 03:50:54.677] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.MPRDataPack
+[21Dec2025 03:50:54.678] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.MeleeAttacking
+[21Dec2025 03:50:54.678] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.OpenDoors
+[21Dec2025 03:50:54.682] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Panic
+[21Dec2025 03:50:54.683] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Pathfinding
+[21Dec2025 03:50:54.685] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.PushResistance
+[21Dec2025 03:50:54.688] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.RandomStroll
+[21Dec2025 03:50:54.690] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Shielding
+[21Dec2025 03:50:54.717] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Spawning
+[21Dec2025 03:50:54.722] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Swimmers
+[21Dec2025 03:50:54.724] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.anticheese.VehicleAntiCheese
+[21Dec2025 03:50:54.732] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.avoidexplosion.AvoidExplosions
+[21Dec2025 03:50:54.738] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.blindnessaffected.ActualBlindness
+[21Dec2025 03:50:54.767] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.breakanger.BreakAnger
+[21Dec2025 03:50:54.776] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.climbing.Climbing
+[21Dec2025 03:50:54.792] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.fallingshockwave.FallingShockwave
+[21Dec2025 03:50:54.797] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.fisher.FisherMobs
+[21Dec2025 03:50:54.814] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.miner.MinerMobs
+[21Dec2025 03:50:54.825] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.parkour.Parkour
+[21Dec2025 03:50:54.833] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.pearler.PearlerMobs
+[21Dec2025 03:50:54.841] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.pickandthrow.PickUpAndThrow
+[21Dec2025 03:50:54.860] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.riding.Riding
+[21Dec2025 03:50:54.870] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.sprint.Sprint
+[21Dec2025 03:50:54.876] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.targeting.Targeting
+[21Dec2025 03:50:54.892] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.teleportanticheese.TeleportAntiCheese
+[21Dec2025 03:50:54.894] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.teleporttotarget.TeleportToTarget
+[21Dec2025 03:50:54.910] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.webber.ThrowingWeb
+[21Dec2025 03:50:54.917] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.ShulkerArmor
+[21Dec2025 03:50:54.926] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.ShulkerBullets
+[21Dec2025 03:50:54.928] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.shulkerattack.ShulkerAttack
+[21Dec2025 03:50:54.938] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.SkeletonFleeTarget
+[21Dec2025 03:50:54.941] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.WitherSkeletons
+[21Dec2025 03:50:54.956] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.shoot.SkeletonShoot
+[21Dec2025 03:50:54.958] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.slime.MagmaCubeSurfSpeed
+[21Dec2025 03:50:54.963] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.slime.SlimeAttackFix
+[21Dec2025 03:50:54.965] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.slime.SlimeJumpDelay
+[21Dec2025 03:50:54.971] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.slime.SlimeSize
+[21Dec2025 03:50:54.974] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.snowgolem.SnowGolemsDamagingSnowballs
+[21Dec2025 03:50:54.978] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.snowgolem.SnowGolemsFreezingSnowballs
+[21Dec2025 03:50:54.983] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[21Dec2025 03:50:54.989] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.snowgolem.SnowGolemsHealedBySnowballs
+[21Dec2025 03:50:54.994] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.snowgolem.SnowballsInvulnerabilityFrames
+[21Dec2025 03:50:54.995] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.StuckFix
+[21Dec2025 03:50:55.005] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.villager.VillagerAlertProtectors
+[21Dec2025 03:50:55.007] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.villager.VillagerAttacking
+[21Dec2025 03:50:55.011] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.warden.WardenDarknessRange
+[21Dec2025 03:50:55.013] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.warden.WardenListenRange
+[21Dec2025 03:50:55.031] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.warden.WardenSonicBoomRange
+[21Dec2025 03:50:55.036] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.ThirstyWitches
+[21Dec2025 03:50:55.037] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.alliedmonsters.AlliedMonsters
+[21Dec2025 03:50:55.049] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.darkart.DarkArt
+[21Dec2025 03:50:55.055] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.throwing.WitchPotionThrowing
+[21Dec2025 03:50:55.452] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[21Dec2025 03:50:55.470] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[21Dec2025 03:50:55.591] [modloading-worker-0/INFO] [STDOUT/]: [dev.hexnowloading.dungeonnowloading.registry.DNLPackets:registerServerbound:8]: [DNLPackets] registerServerbound()
+[21Dec2025 03:50:55.710] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id aaa_particles:main/2b101225a0983c178c43c737d76def52
+[21Dec2025 03:50:55.716] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id aaa_particles:main/878ba3ad853235668eff51eb0a40c900
+[21Dec2025 03:50:55.717] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id aaa_particles:main/878ba3ad853235668eff51eb0a40c900
+[21Dec2025 03:50:55.722] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id aaa_particles:main/9b5bc39f00d53db2acf81d859b596583
+[21Dec2025 03:50:55.852] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.13, for MC 1.20.1 with MCP 20230612.114412
+[21Dec2025 03:50:55.852] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.13 Initialized
+[21Dec2025 03:50:56.812] [modloading-worker-0/INFO] [Dungeon Now Loading/]: Hello Forge world!
+[21Dec2025 03:51:00.310] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[21Dec2025 03:51:00.311] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[21Dec2025 03:51:01.759] [modloading-worker-0/INFO] [com.dragonfight.DragonfightMod/]: dragonfight mod initialized
+[21Dec2025 03:51:01.781] [modloading-worker-0/INFO] [tn.naizo.jauml.JaumlCore/]: HELLO FROM COMMON SETUP
+[21Dec2025 03:51:01.879] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models Initialized
+[21Dec2025 03:51:01.990] [modloading-worker-0/INFO] [enchanting_system_overhaul/]: ESO Initialized
+[21Dec2025 03:51:02.046] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[21Dec2025 03:51:02.217] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[21Dec2025 03:51:02.225] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[21Dec2025 03:51:02.225] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[21Dec2025 03:51:02.225] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[21Dec2025 03:51:02.225] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[21Dec2025 03:51:02.226] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[21Dec2025 03:51:02.226] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[21Dec2025 03:51:02.226] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[21Dec2025 03:51:02.226] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[21Dec2025 03:51:02.226] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
+[21Dec2025 03:51:02.228] [main/INFO] [journeymap/]: Initializing Packet Registries
+[21Dec2025 03:51:02.243] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[21Dec2025 03:51:02.243] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[21Dec2025 03:51:02.243] [main/INFO] [terrablender/]: Registered region yungscavebiomes:overworld to index 1 for type OVERWORLD
+[21Dec2025 03:51:02.614] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models API initialized: Loaded plugins: (1)
+	cpmoscc
+
+[21Dec2025 03:51:02.629] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.10 Target: 1.20.1-1.5.1
+[21Dec2025 03:51:02.630] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Starting version check at https://api.modrinth.com/updates/MCnBYP0b/forge_updates.json
+[21Dec2025 03:51:02.747] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.ferreusveritas.dynamictrees.compat.waila.WailaCompat
+[21Dec2025 03:51:02.759] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[21Dec2025 03:51:02.771] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[21Dec2025 03:51:02.775] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[21Dec2025 03:51:02.776] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[21Dec2025 03:51:02.777] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[21Dec2025 03:51:02.813] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[21Dec2025 03:51:02.815] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[21Dec2025 03:51:02.815] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[21Dec2025 03:51:02.871] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Found status: OUTDATED Current: 1-v1.1.0c Target: 1.1.0c+mod
+[21Dec2025 03:51:02.872] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[21Dec2025 03:51:03.020] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.021] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.021] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.021] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.022] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.022] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.022] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.022] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.023] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.023] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.023] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.023] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.024] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.024] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.024] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.024] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.024] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.025] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.025] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.025] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.026] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.026] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.026] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.026] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.027] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.027] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.027] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.027] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.027] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.028] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.028] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.028] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.028] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.029] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.029] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.029] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.029] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.029] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.030] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.030] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.030] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.030] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.031] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.031] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.031] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.031] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.031] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.032] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.032] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.032] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.032] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.033] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.033] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.033] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.033] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.033] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.034] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.034] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.034] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.034] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.035] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.035] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.035] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.035] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.035] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.036] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.036] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.036] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.036] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.037] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.037] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.037] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.037] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.038] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.038] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.038] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.038] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.039] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.039] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.039] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.040] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.040] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.040] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.040] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.041] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.041] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.041] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.041] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.041] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.042] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.042] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.042] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.043] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.043] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.043] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.043] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.044] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.044] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.044] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.045] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.045] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.045] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.045] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.045] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.046] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.046] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.046] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.047] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.047] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.047] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.047] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.048] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.048] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.048] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.048] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.048] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.049] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.049] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.049] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.050] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.050] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.050] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.050] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.051] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.051] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.051] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.051] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.051] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.052] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.052] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.052] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.053] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.053] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.053] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.053] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.054] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.054] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.054] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.054] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.054] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.055] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.055] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.055] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.056] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.056] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.056] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.056] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.056] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.057] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.057] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.057] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.057] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.058] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.058] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.058] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.058] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.059] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.059] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.059] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.059] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.059] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.060] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.060] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.060] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.060] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.061] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.061] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.061] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.061] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.061] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.062] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.062] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.062] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.062] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.062] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.063] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.063] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.063] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.063] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.063] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.064] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.064] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.064] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.064] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.064] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.065] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.107] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: BETA Current: 1.20.1-1.4.9 Target: null
+[21Dec2025 03:51:03.109] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_edf_remastered] Starting version check at https://api.modrinth.com/updates/HQsBdHGd/forge_updates.json
+[21Dec2025 03:51:03.179] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_edf_remastered] Found status: OUTDATED Current: 4.3 Target: 4.3+mod
+[21Dec2025 03:51:03.180] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[21Dec2025 03:51:03.248] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[21Dec2025 03:51:03.249] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Starting version check at https://raw.githubusercontent.com/tom5454/CustomPlayerModels/master/version-check.json
+[21Dec2025 03:51:03.292] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Found status: BETA Current: 0.6.25a Target: 0.6.25a
+[21Dec2025 03:51:03.293] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[21Dec2025 03:51:03.377] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.4.13 Target: null
+[21Dec2025 03:51:03.378] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpmoscc] Starting version check at https://raw.githubusercontent.com/tom5454/CustomPlayerModels/master/CPM-OSC-Compat/version-check.json
+[21Dec2025 03:51:03.409] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpmoscc] Found status: BETA Current: 1.6.2 Target: 1.6.0
+[21Dec2025 03:51:03.410] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[21Dec2025 03:51:03.460] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21Dec2025 03:51:03.509] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.35 Target: null
+[21Dec2025 03:51:03.509] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[21Dec2025 03:51:03.570] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.1 Target: null
+[21Dec2025 03:51:03.570] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
+[21Dec2025 03:51:03.653] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.654] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.654] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.654] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.655] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.655] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.655] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.655] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.655] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.655] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.655] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.655] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.656] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.656] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.656] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.656] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.656] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.656] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.656] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.657] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.658] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.658] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.658] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.659] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.660] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.661] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.661] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.662] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.662] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.662] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.663] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.663] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.664] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.664] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.664] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.665] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.665] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.665] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.665] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.665] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.665] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.665] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.665] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.665] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.666] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.666] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.666] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.666] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.666] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.666] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.666] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.666] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.667] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.667] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.668] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.668] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.668] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.668] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.668] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.668] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.668] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.668] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.668] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.669] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.669] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.669] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.669] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.669] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.669] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.669] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.669] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.669] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.670] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.670] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.670] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.670] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.671] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.671] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.671] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.671] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.671] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.671] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.671] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.672] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.672] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.672] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.672] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.672] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.672] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.672] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.672] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.672] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.673] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.673] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.673] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.673] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.673] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.673] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.673] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.673] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.674] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.674] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.674] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.674] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.674] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.674] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.674] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.674] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.675] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.675] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.675] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.675] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.675] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.675] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.675] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.675] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.675] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.676] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.676] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.676] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.676] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.676] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.676] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.676] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.676] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.677] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.677] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.677] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.677] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.678] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.678] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.678] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.678] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.678] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.678] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.678] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.678] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.678] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.678] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.678] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.679] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.679] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.679] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.679] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.679] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.679] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.679] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.679] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.679] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.679] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.679] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.680] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.680] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.680] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.680] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.680] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.680] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.680] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.680] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.680] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.680] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.680] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.681] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.681] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.681] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.681] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.681] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.681] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.681] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.681] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.681] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.682] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.682] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.682] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.682] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.682] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.682] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.682] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.683] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.683] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.684] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.684] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.684] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.684] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.684] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.684] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.690] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.4.13.jar%23324!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.4.13.jar%23324!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[21Dec2025 03:51:03.762] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.762] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.763] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.763] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.763] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.763] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.763] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.763] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.764] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.764] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.764] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.764] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.764] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.764] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.765] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.765] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.765] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.765] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.765] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.766] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.766] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.766] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.766] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.766] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.766] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.766] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.767] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.767] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.767] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.767] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.767] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.767] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.768] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.768] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.768] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.768] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.768] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.768] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.769] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.769] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.769] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.769] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.769] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.769] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.769] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.770] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.770] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.770] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.770] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.770] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.770] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.770] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.770] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.770] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.771] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.771] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.771] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.771] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.771] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.771] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.772] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.772] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.772] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.772] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.772] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.772] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.773] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.773] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.773] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.773] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.773] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.773] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.773] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.774] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.774] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.774] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.774] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.774] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.774] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.775] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.775] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.775] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.775] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.775] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.775] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.775] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.776] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.776] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.776] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.776] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.776] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.776] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.777] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.777] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.777] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.777] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.777] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.777] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.778] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.778] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.778] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.778] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.778] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.778] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.778] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.779] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.779] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.779] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.779] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.779] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.779] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.779] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.779] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.779] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.780] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.780] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.780] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.780] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.780] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.780] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.780] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.780] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.780] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.781] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.781] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.781] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.781] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.781] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.781] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.782] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.782] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.782] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.782] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.783] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.783] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.783] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.783] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.783] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.783] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.783] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.783] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.783] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.783] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.783] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.784] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.784] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.784] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.784] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.784] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.784] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.784] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.784] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.784] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.785] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.785] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.785] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.785] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.785] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.785] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.785] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.785] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.785] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.785] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.785] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.786] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.786] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.786] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.786] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.786] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.786] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.787] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.787] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.787] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.787] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.787] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.787] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.787] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.788] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.788] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.788] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.788] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.788] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.788] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.788] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:bone has no attributes
+[21Dec2025 03:51:03.788] [main/ERROR] [net.minecraft.Util/]: Entity illageandspillage:axe has no attributes
+[21Dec2025 03:51:03.788] [main/ERROR] [net.minecraft.Util/]: Entity mythsandlegends:molten_ball has no attributes
+[21Dec2025 03:51:03.925] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server_Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23323!/assets/.mcassetsroot' uses unexpected schema
+[21Dec2025 03:51:03.925] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server_Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23323!/data/.mcassetsroot' uses unexpected schema
+[21Dec2025 03:51:12.202] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspaces/Server_Minecraft/servidor_minecraft/tacz
+[21Dec2025 03:51:12.203] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
+[21Dec2025 03:51:12.204] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
+[21Dec2025 03:51:13.587] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[21Dec2025 03:51:14.160] [main/INFO] [Infernal Expansion/]: [InfernalExpansion] Applying configured data: minecraft:dimension/the_nether.json
+[21Dec2025 03:51:15.030] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Not a JSON object: null
+[21Dec2025 03:51:15.030] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list curios:glider from curios:tags/items/glider.json in data pack gliders-forge-1.1.8.jar
+java.lang.RuntimeException: Not a JSON object: null
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.tags.TagLoader.m_144495_(TagLoader.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.tags.TagLoader.m_203900_(TagLoader.java:114) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.tags.TagManager.m_203920_(TagManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[21Dec2025 03:51:15.072] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag trinkets:chest/cape as it is missing following references: #vc_gliders:gliders (from gliders-forge-1.1.8.jar)
+[21Dec2025 03:51:15.078] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag trinkets:chest/back as it is missing following references: #vc_gliders:gliders (from gliders-forge-1.1.8.jar)
+[21Dec2025 03:51:15.982] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:parcool:grant_parcool_guide
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:872) ~[forge-1.20.1-47.4.13-universal.jar%23328!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:849) ~[forge-1.20.1-47.4.13-universal.jar%23328!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[21Dec2025 03:51:16.009] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:iter_rpg:blocks/profane_flesh_block
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'iter_rpg:deleted_mod_element'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:872) ~[forge-1.20.1-47.4.13-universal.jar%23328!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:849) ~[forge-1.20.1-47.4.13-universal.jar%23328!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23323!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[21Dec2025 03:51:16.220] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/griever}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.221] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/griever}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.221] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/prismauler}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.221] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.221] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/sorrowsealed}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.221] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/earth_elemental}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.221] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/void_elemental}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.221] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/prismauler}.pools[0].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.221] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/mournstone}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.221] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/mournstone}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.222] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/crown_squid}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.222] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/prismaw}.pools[0].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.222] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/sorrowsealed}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.222] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/water_elemental}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.222] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/weeper}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.222] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/prismaw}.pools[0].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.222] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/giant_spider}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.222] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/prismaw}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.223] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/prismauler}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.223] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/griever}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.223] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.223] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/prismauler}.pools[0].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.223] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/chaos_apparition}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.223] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/griever}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.223] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/axebeak}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.223] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/axebeak}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.224] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/prismauler}.pools[0].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.224] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/carcass}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.224] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/mournstone}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.224] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/prismaw}.pools[0].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.224] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/fire_elemental}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.224] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/weeper}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.224] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/carcass}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.224] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/prismauler}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.224] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/giant_spider}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.225] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/prismaw}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.225] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/prismaw}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.225] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:iter_rpg:entities/weeper}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[21Dec2025 03:51:16.244] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:packed_snow_bricks_cut_wall: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.260] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:smooth_ice_bricks_cut_wall: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.267] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:smooth_ice_cut_slab: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.269] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:packed_snow_bricks_cut_slab: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.272] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:packed_snow_bricks_cut_ornate: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.278] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:packed_snow_cut_bricks: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.280] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:packed_snow_cut_wall: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.281] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mofus_better_end_:end_engine_recipe: com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod_element'
+[21Dec2025 03:51:16.283] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe parcool:parcool_guide: com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
+[21Dec2025 03:51:16.284] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:smooth_ice_bricks_cut_ornate: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.289] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:packed_snow_cut_slab_bricks: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.292] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:smooth_ice_cut_slab_bricks: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.297] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:smooth_ice_cut_stairs: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.298] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe botanypots:crop/arcane_flower_seeds: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+[21Dec2025 03:51:16.302] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe botanypots:soil/ametrine_block: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:soil'
+[21Dec2025 03:51:16.304] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:cloudstorage_cloud_charge: com.google.gson.JsonSyntaxException: Unknown item 'cloudstorage:cloud'
+[21Dec2025 03:51:16.305] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:packed_snow_cut_ornate_bricks: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.309] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:packed_snow_bricks_cut_stairs: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.311] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:cloudstorage_cloud_convert: com.google.gson.JsonSyntaxException: Unknown item 'cloudstorage:cloud'
+[21Dec2025 03:51:16.311] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:packed_snow_cut_slab: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.313] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:smooth_ice_bricks_cut_slab: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.314] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe botanypots:crop/sacred_sapling: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+[21Dec2025 03:51:16.317] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:smooth_ice_bricks_cut_stairs: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.318] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dynamictrees:guide: com.google.gson.JsonSyntaxException: Missing conditions, expected to find a JsonArray
+[21Dec2025 03:51:16.318] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iter_rpg:smooth_ice_cut_wall: com.google.gson.JsonSyntaxException: Unknown item 'iter_rpg:deleted_mod_element'
+[21Dec2025 03:51:16.321] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe botanypots:soil/amethyst_block: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:soil'
+[21Dec2025 03:51:16.324] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[21Dec2025 03:51:16.453] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement zombiesmore:kaboom: Task Advancement{parentId=zombiesmore:kaboom, display=net.minecraft.advancements.DisplayInfo@6ca4fb98, rewards=AdvancementRewards{experience=5, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@658697e2}, criteria={kaboom_0=net.minecraft.advancements.Criterion@6043022a}, requirements=[[kaboom_0]], sends_telemetry_event=false}
+[21Dec2025 03:51:16.453] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2653 advancements
+[21Dec2025 03:51:16.458] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[21Dec2025 03:51:16.462] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 15 curio slots
+[21Dec2025 03:51:16.466] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[21Dec2025 03:51:16.664] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[21Dec2025 03:51:16.683] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
+[21Dec2025 03:51:16.731] [main/WARN] [ModernFix/]: Initial datapack load took 12.77 s
+[21Dec2025 03:51:17.159] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[21Dec2025 03:51:17.160] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21Dec2025 03:51:17.160] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21Dec2025 03:51:17.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Dec2025 03:51:17.243] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[21Dec2025 03:51:17.337] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[21Dec2025 03:51:17.437] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21Dec2025 03:51:17.437] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[21Dec2025 03:51:17.437] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21Dec2025 03:51:17.438] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[21Dec2025 03:51:17.455] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21Dec2025 03:51:17.456] [Server thread/INFO] [net.petemc.mutantszombies.MutantsZombies/]: Loading mutantszombies server config
+[21Dec2025 03:51:17.564] [Server thread/INFO] [me.kall.duplicationless.data.EntityTracker/]: Duplicationless Entity Tracker has initialized successfully.
+[21Dec2025 03:51:17.566] [Server thread/INFO] [Framework/]: Loading server configs...
+[21Dec2025 03:51:17.766] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[21Dec2025 03:51:17.943] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[21Dec2025 03:51:17.944] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21Dec2025 03:51:18.580] [Server thread/INFO] [Infernal Expansion/]: Successfully added Surface Rules for the Nether
+[21Dec2025 03:51:18.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Dec2025 03:51:19.319] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2025 03:51:19.320] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2025 03:51:19.626] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2025 03:51:20.196] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2025 03:51:20.685] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2025 03:51:21.087] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2025 03:51:21.705] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[21Dec2025 03:51:22.083] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[21Dec2025 03:51:22.584] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
+[21Dec2025 03:51:22.628] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4047 ms
+[21Dec2025 03:51:22.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.179s)! For help, type "help"
+[21Dec2025 03:51:22.681] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[21Dec2025 03:51:22.682] [Server thread/INFO] [tn.naizo.jauml.JaumlCore/]: HELLO from server starting
+[21Dec2025 03:51:22.721] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: dragonfight.json
+[21Dec2025 03:51:22.740] [Server thread/WARN] [ModernFix/]: Dedicated server took 55.169 seconds to load
+[21Dec2025 03:52:22.200] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from interface vzling.lib.entity.ISkillPlayer
+[21Dec2025 03:52:22.277] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ALEss0312qr[/127.221.200.127:42617] logged in with entity id 180 at (-714.3752222458613, -24.30378394594273, 296.76435329261506)
+[21Dec2025 03:52:22.335] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player ALEss0312qr
+[21Dec2025 03:52:22.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALEss0312qr joined the game
+[21Dec2025 03:52:22.417] [Server thread/INFO] [Jade/]: Syncing config to ALEss0312qr (26f25e2c-0997-3d91-b992-c39915128ce5)
+[21Dec2025 03:52:24.310] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 26f25e2c-0997-3d91-b992-c39915128ce5 was loaded
+[21Dec2025 03:52:24.313] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [ALEss0312qr]
+[21Dec2025 03:52:24.313] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [ALEss0312qr]
+[21Dec2025 03:52:24.361] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2070ms or 41 ticks behind
+[21Dec2025 03:52:24.463] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
+[21Dec2025 03:52:49.951] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ThespitterEntity['[Lvl.0] The Spitter'/253, l='ServerLevel[world]', x=-761.70, y=-37.80, z=353.51] died: [Lvl.0] The Spitter suffocated in a wall
+[21Dec2025 03:53:41.143] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jhonxd591[/127.29.203.18:41981] logged in with entity id 648 at (-731.6644392477278, -32.0, 256.32813492766803)
+[21Dec2025 03:53:41.154] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Jhonxd591
+[21Dec2025 03:53:41.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd591 joined the game
+[21Dec2025 03:53:41.271] [Server thread/INFO] [Jade/]: Syncing config to Jhonxd591 (c55c60b3-beee-3429-acdc-6930d6cf0363)
+[21Dec2025 03:53:41.875] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of c55c60b3-beee-3429-acdc-6930d6cf0363 was loaded
+[21Dec2025 03:53:41.875] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [Jhonxd591]
+[21Dec2025 03:53:41.875] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [Jhonxd591]
+[21Dec2025 03:54:05.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set ALEss0312qr's game mode to Survival Mode
+[21Dec2025 03:54:16.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set Jhonxd591's game mode to Creative Mode
+[21Dec2025 03:54:35.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALEss0312qr has made the advancement [Acquire Hardware]
+[21Dec2025 03:54:41.953] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity LecheryEntity['[Lvl.0] The Lechery'/870, l='ServerLevel[world]', x=-714.23, y=-34.00, z=258.48] died: [Lvl.0] The Lechery drowned whilst trying to escape Jhonxd591
+[21Dec2025 03:55:15.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set ALEss0312qr's game mode to Creative Mode
+[21Dec2025 03:55:18.850] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SpitterEntity['[Lvl.0] Spitter'/1069, l='ServerLevel[world]', x=-690.50, y=-42.00, z=331.50]
+[21Dec2025 03:55:27.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set ALEss0312qr's game mode to Survival Mode
+[21Dec2025 03:55:37.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set Jhonxd591's game mode to Survival Mode
+[21Dec2025 03:55:38.999] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity CrawlerEntity['[Lvl.0] Crawler'/780, l='ServerLevel[world]', x=-770.78, y=-15.00, z=287.45] died: [Lvl.0] Crawler tried to swim in lava
+[21Dec2025 03:55:56.555] [Worker-Main-3/INFO] [bettercaves/]: CREATING AND INIT'ING MASTER CONTROLLER...
+[21Dec2025 03:56:50.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALEss0312qr has made the advancement [Suit Up]
+[21Dec2025 03:57:29.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALEss0312qr has made the advancement [Hot Stuff]
+[21Dec2025 03:57:29.872] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SpitterEntity['[Lvl.0] Spitter'/1822, l='ServerLevel[world]', x=-717.50, y=2.00, z=337.50]
+[21Dec2025 03:58:10.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALEss0312qr has made the advancement [Not Today, Thank You]
+[21Dec2025 03:59:09.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd591 was slain by [Lvl.0] Zombie Brute
+[21Dec2025 03:59:09.413] [Server thread/INFO] [gravestone/]: The death ID of player Jhonxd591 is 4c53494b-ac40-4acf-a8a7-1bc2f83fe837
+[21Dec2025 03:59:11.175] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [Jhonxd591]
+[21Dec2025 03:59:11.175] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [Jhonxd591]
+[21Dec2025 03:59:20.478] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieBruteEntity['[Lvl.0] Zombie Brute'/2196, l='ServerLevel[world]', x=-807.19, y=-26.00, z=369.80] died: [Lvl.0] Zombie Brute was slain by Jhonxd591
+[21Dec2025 03:59:23.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALEss0312qr was slain by [Lvl.0] Crawler
+[21Dec2025 03:59:23.106] [Server thread/INFO] [gravestone/]: The death ID of player ALEss0312qr is 73ba4154-0ab7-4124-ad4d-1140424d1668
+[21Dec2025 03:59:24.738] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [ALEss0312qr]
+[21Dec2025 03:59:24.738] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [ALEss0312qr]
+[21Dec2025 03:59:25.554] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SpitterEntity['[Lvl.0] Spitter'/2742, l='ServerLevel[world]', x=-64.50, y=37.00, z=44.50]
+[21Dec2025 04:00:08.349] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SpitterEntity['[Lvl.0] Spitter'/2816, l='ServerLevel[world]', x=-764.50, y=-7.00, z=332.50]
+[21Dec2025 04:00:20.916] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity SpiderlingEntity['[Lvl.0] Spiderling'/2920, l='ServerLevel[world]', x=-819.38, y=-30.00, z=411.09] died: [Lvl.0] Spiderling was slain by Jhonxd591
+[21Dec2025 04:00:22.704] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity SpiderlingEntity['[Lvl.0] Spiderling'/2919, l='ServerLevel[world]', x=-817.20, y=-37.00, z=415.20] died: [Lvl.0] Spiderling hit the ground too hard whilst trying to escape Jhonxd591
+[21Dec2025 04:00:55.750] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SpitterEntity['[Lvl.0] Spitter'/3194, l='ServerLevel[world]', x=-777.50, y=-9.00, z=454.50]
+[21Dec2025 04:01:05.161] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['[Lvl.0] Zombie'/2848, l='ServerLevel[world]', x=-833.66, y=-31.25, z=451.97] died: [Lvl.0] Zombie was slain by Jhonxd591
+[21Dec2025 04:01:10.660] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ALEss0312qr lost connection: Disconnected
+[21Dec2025 04:01:10.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALEss0312qr left the game
+[21Dec2025 04:01:10.662] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 26f25e2c-0997-3d91-b992-c39915128ce5 was unloaded
+[21Dec2025 04:01:16.667] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ALEss0312qr[/127.221.200.127:40025] logged in with entity id 3306 at (16.35188510940171, 114.0, 66.69999998807907)
+[21Dec2025 04:01:16.675] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player ALEss0312qr
+[21Dec2025 04:01:16.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALEss0312qr joined the game
+[21Dec2025 04:01:16.810] [Server thread/INFO] [Jade/]: Syncing config to ALEss0312qr (26f25e2c-0997-3d91-b992-c39915128ce5)
+[21Dec2025 04:01:17.016] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 26f25e2c-0997-3d91-b992-c39915128ce5 was loaded
+[21Dec2025 04:01:17.016] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [ALEss0312qr]
+[21Dec2025 04:01:17.017] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [ALEss0312qr]
+[21Dec2025 04:02:06.733] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieBruteEntity['[Lvl.0] Zombie Brute'/3068, l='ServerLevel[world]', x=-809.39, y=-24.00, z=396.41] died: [Lvl.0] Zombie Brute was slain by Jhonxd591
+[21Dec2025 04:02:24.972] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity CrawlerEntity['[Lvl.0] Crawler'/3070, l='ServerLevel[world]', x=-821.05, y=-30.00, z=403.75] died: [Lvl.0] Crawler was slain by Jhonxd591
+[21Dec2025 04:02:34.567] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieBruteEntity['[Lvl.0] Zombie Brute'/3069, l='ServerLevel[world]', x=-824.20, y=-31.00, z=402.50] died: [Lvl.0] Zombie Brute was slain by Jhonxd591
+[21Dec2025 04:02:47.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd591 was blown up by Creeper
+[21Dec2025 04:02:47.408] [Server thread/INFO] [gravestone/]: The death ID of player Jhonxd591 is 34b575ae-4426-41a0-a642-64b4a3c0df28
+[21Dec2025 04:02:49.055] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [Jhonxd591]
+[21Dec2025 04:02:49.056] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [Jhonxd591]
+[21Dec2025 04:03:03.785] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieBruteEntity['[Lvl.0] Zombie Brute'/3870, l='ServerLevel[world]', x=-828.83, y=-31.00, z=404.54] died: [Lvl.0] Zombie Brute was slain by Jhonxd591
+[21Dec2025 04:03:20.317] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['[Lvl.0] Skeleton'/3875, l='ServerLevel[world]', x=-808.75, y=-25.00, z=392.77] died: [Lvl.0] Skeleton was slain by Jhonxd591
+[21Dec2025 04:04:15.138] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ThesomnolenceEntity['[Lvl.0] The Somnolence'/3871, l='ServerLevel[world]', x=-895.33, y=-29.86, z=374.47] died: [Lvl.0] The Somnolence was slain by Jhonxd591
+[21Dec2025 04:05:04.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd591 was shot by [Lvl.0] Skeleton
+[21Dec2025 04:05:04.782] [Server thread/INFO] [gravestone/]: The death ID of player Jhonxd591 is d4c26989-cac4-428f-84f1-bd007ff11a19
+[21Dec2025 04:05:06.208] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [Jhonxd591]
+[21Dec2025 04:05:06.208] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [Jhonxd591]
+[21Dec2025 04:05:07.501] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SpitterEntity['[Lvl.0] Spitter'/5487, l='ServerLevel[world]', x=-829.50, y=-54.00, z=357.50]
+[21Dec2025 04:06:45.170] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity LecheryEntity['[Lvl.0] The Lechery'/6127, l='ServerLevel[world]', x=-872.50, y=-5.00, z=355.50] died: [Lvl.0] The Lechery was slain by Jhonxd591
+[21Dec2025 04:06:50.814] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SpitterEntity['[Lvl.0] Spitter'/6301, l='ServerLevel[world]', x=-657.50, y=-8.00, z=200.50]
+[21Dec2025 04:07:09.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd591 blew up
+[21Dec2025 04:07:09.456] [Server thread/INFO] [gravestone/]: The death ID of player Jhonxd591 is d5b5f2e7-9f37-4774-8e81-809f99af0b68
+[21Dec2025 04:07:11.238] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [Jhonxd591]
+[21Dec2025 04:07:11.238] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [Jhonxd591]
+[21Dec2025 04:08:35.614] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ExplosiveZombieEntity['[Lvl.0] Explosive Zombie'/6707, l='ServerLevel[world]', x=-883.64, y=12.00, z=331.94] died: [Lvl.0] Explosive Zombie was slain by Jhonxd591
+[21Dec2025 04:08:40.914] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ExplosiveZombieEntity['[Lvl.0] Explosive Zombie'/6703, l='ServerLevel[world]', x=-881.83, y=12.00, z=330.01] died: [Lvl.0] Explosive Zombie was slain by Jhonxd591
+[21Dec2025 04:09:10.439] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity LecheryEntity['[Lvl.0] The Lechery'/7881, l='ServerLevel[world]', x=-881.43, y=14.00, z=321.51] died: [Lvl.0] The Lechery was slain by Jhonxd591
+[21Dec2025 04:10:05.701] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ThespitterEntity['[Lvl.0] The Spitter'/6741, l='ServerLevel[world]', x=-901.45, y=27.17, z=346.30] died: [Lvl.0] The Spitter suffocated in a wall
+[21Dec2025 04:11:44.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported ALEss0312qr to -724.500000, -40.000000, 315.500000
+[21Dec2025 04:13:00.299] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SpitterEntity['[Lvl.0] Spitter'/9531, l='ServerLevel[world]', x=-837.50, y=31.00, z=337.50]
+[21Dec2025 04:13:31.802] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity DebugMobmorphEntity['[Lvl.0] entity.iter_rpg.debug_mobmorph'/6742, l='ServerLevel[world]', x=-927.50, y=93.00, z=320.50] died: [Lvl.0] entity.iter_rpg.debug_mobmorph suffocated in a wall
+[21Dec2025 04:13:31.849] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity DebugMobmorphEntity['[Lvl.0] entity.iter_rpg.debug_mobmorph'/6808, l='ServerLevel[world]', x=-927.50, y=96.00, z=240.50] died: [Lvl.0] entity.iter_rpg.debug_mobmorph suffocated in a wall
+[21Dec2025 04:15:50.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd591 has made the advancement [Light as a Rabbit]
+[21Dec2025 04:15:58.548] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SpitterEntity['[Lvl.0] Spitter'/11110, l='ServerLevel[world]', x=-791.50, y=46.00, z=290.50]
+[21Dec2025 04:15:59.931] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/3924, l='ServerLevel[world]', x=-799.65, y=79.00, z=369.57] died: [Lvl.0] Sheep was slain by Jhonxd591
+[21Dec2025 04:16:03.962] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/3923, l='ServerLevel[world]', x=-801.62, y=79.00, z=374.86] died: [Lvl.0] Sheep was slain by Jhonxd591
+[21Dec2025 04:16:06.230] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/3922, l='ServerLevel[world]', x=-791.06, y=79.00, z=374.53] died: [Lvl.0] Sheep was slain by Jhonxd591
+[21Dec2025 04:16:27.112] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/3991, l='ServerLevel[world]', x=-767.39, y=79.00, z=345.01] died: [Lvl.0] Sheep was slain by Jhonxd591
+[21Dec2025 04:16:40.210] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['[Lvl.0] Spider'/11281, l='ServerLevel[world]', x=-769.20, y=78.00, z=342.24] died: [Lvl.0] Spider was slain by Jhonxd591
+[21Dec2025 04:16:58.600] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/3992, l='ServerLevel[world]', x=-771.38, y=79.00, z=356.73] died: [Lvl.0] Sheep walked into fire whilst fighting Jhonxd591
+[21Dec2025 04:17:12.418] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['[Lvl.0] Skeleton'/11542, l='ServerLevel[world]', x=-792.63, y=78.00, z=373.40] died: [Lvl.0] Skeleton was slain by Jhonxd591
+[21Dec2025 04:17:29.513] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/3990, l='ServerLevel[world]', x=-790.93, y=78.00, z=376.85] died: [Lvl.0] Sheep was slain by ALEss0312qr
+[21Dec2025 04:17:35.530] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/3989, l='ServerLevel[world]', x=-795.59, y=78.00, z=371.19] died: [Lvl.0] Sheep was slain by ALEss0312qr
+[21Dec2025 04:18:15.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALEss0312qr was slain by Jhonxd591
+[21Dec2025 04:18:15.868] [Server thread/INFO] [gravestone/]: The death ID of player ALEss0312qr is 68358e7a-d258-4c22-bb8a-5307b2822df4
+[21Dec2025 04:18:20.126] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [ALEss0312qr]
+[21Dec2025 04:18:20.126] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [ALEss0312qr]
+[21Dec2025 04:18:20.254] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SpitterEntity['[Lvl.0] Spitter'/12124, l='ServerLevel[world]', x=-83.50, y=58.00, z=-15.50]
+[21Dec2025 04:18:20.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jhonxd591> ya tienes toda la vida
+[21Dec2025 04:18:30.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jhonxd591> toma otro frasco
+[21Dec2025 04:18:44.677] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/6718, l='ServerLevel[world]', x=-778.08, y=80.00, z=365.06] died: [Lvl.0] Sheep was slain by Jhonxd591
+[21Dec2025 04:19:00.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jhonxd591> xd
+[21Dec2025 04:19:10.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jhonxd591> dime
+[21Dec2025 04:19:18.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jhonxd591> cuando mi mamá se vaya prendo mi micro
+[21Dec2025 04:19:40.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jhonxd591> si
+[21Dec2025 04:20:14.710] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['[Lvl.0] Pig'/3950, l='ServerLevel[world]', x=-771.42, y=80.00, z=368.94] died: [Lvl.0] Pig was slain by ALEss0312qr
+[21Dec2025 04:20:16.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jhonxd591> ,,,,
+[21Dec2025 04:20:20.681] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Horse['[Lvl.0] Horse'/3953, l='ServerLevel[world]', x=-777.57, y=81.00, z=367.77] died: [Lvl.0] Horse was slain by ALEss0312qr
+[21Dec2025 04:20:34.073] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['[Lvl.0] Pig'/3951, l='ServerLevel[world]', x=-796.77, y=78.00, z=363.16] died: [Lvl.0] Pig was slain by Jhonxd591
+[21Dec2025 04:20:45.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALEss0312qr was slain by [Lvl.0] Zombie Brute
+[21Dec2025 04:20:45.113] [Server thread/INFO] [gravestone/]: The death ID of player ALEss0312qr is 3e0f6d4d-1ecf-4573-8490-03c6a335675b
+[21Dec2025 04:20:46.478] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [ALEss0312qr]
+[21Dec2025 04:20:46.479] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [ALEss0312qr]
+[21Dec2025 04:20:50.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ALEss0312qr> back
+[21Dec2025 04:21:14.216] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieBruteEntity['[Lvl.0] Zombie Brute'/11812, l='ServerLevel[world]', x=-780.31, y=81.00, z=369.25] died: [Lvl.0] Zombie Brute was slain by Jhonxd591
+[21Dec2025 04:21:32.732] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Horse['[Lvl.0] Horse'/3957, l='ServerLevel[world]', x=-778.67, y=80.00, z=385.65] died: [Lvl.0] Horse was slain by ALEss0312qr
+[21Dec2025 04:21:36.682] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Chicken['[Lvl.0] Chicken'/6723, l='ServerLevel[world]', x=-782.80, y=79.00, z=382.63] died: [Lvl.0] Chicken was slain by ALEss0312qr
+[21Dec2025 04:22:16.406] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Horse['[Lvl.0] Horse'/3955, l='ServerLevel[world]', x=-779.36, y=80.00, z=365.39] died: [Lvl.0] Horse was slain by ALEss0312qr
+[21Dec2025 04:26:10.836] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['[Lvl.0] Pig'/6770, l='ServerLevel[world]', x=-868.90, y=80.00, z=411.82] died: [Lvl.0] Pig was slain by Jhonxd591
+[21Dec2025 04:26:13.727] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['[Lvl.0] Pig'/6771, l='ServerLevel[world]', x=-876.57, y=79.00, z=416.45] died: [Lvl.0] Pig was slain by Jhonxd591
+[21Dec2025 04:26:19.725] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['[Lvl.0] Pig'/6769, l='ServerLevel[world]', x=-882.42, y=75.25, z=423.47] died: [Lvl.0] Pig was slain by Jhonxd591
+[21Dec2025 04:26:24.125] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['[Lvl.0] Pig'/6768, l='ServerLevel[world]', x=-869.33, y=79.00, z=427.60] died: [Lvl.0] Pig was slain by Jhonxd591
+[21Dec2025 04:26:28.111] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity DebugMobmorphEntity['[Lvl.0] Debug Mobmorph'/10877, l='ServerLevel[world]', x=-911.50, y=77.00, z=512.50] died: [Lvl.0] Debug Mobmorph suffocated in a wall
+[21Dec2025 04:26:29.569] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/6716, l='ServerLevel[world]', x=-854.90, y=80.00, z=405.10] died: [Lvl.0] Sheep was slain by Jhonxd591
+[21Dec2025 04:26:31.913] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/6717, l='ServerLevel[world]', x=-859.14, y=80.00, z=400.76] died: [Lvl.0] Sheep was slain by Jhonxd591
+[21Dec2025 04:26:35.626] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/6719, l='ServerLevel[world]', x=-858.27, y=78.00, z=387.26] died: [Lvl.0] Sheep was slain by Jhonxd591
+[21Dec2025 04:26:37.628] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/6800, l='ServerLevel[world]', x=-837.56, y=85.17, z=470.53] died: [Lvl.0] Sheep was slain by ALEss0312qr
+[21Dec2025 04:26:46.707] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity DebugMobmorphEntity['[Lvl.0] Debug Mobmorph'/10872, l='ServerLevel[world]', x=-959.50, y=78.00, z=512.50] died: [Lvl.0] Debug Mobmorph suffocated in a wall
+[21Dec2025 04:26:48.109] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/6789, l='ServerLevel[world]', x=-890.66, y=79.00, z=473.25] died: [Lvl.0] Sheep was slain by ALEss0312qr
+[21Dec2025 04:26:56.923] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/6792, l='ServerLevel[world]', x=-875.76, y=80.00, z=470.28] died: [Lvl.0] Sheep was slain by ALEss0312qr
+[21Dec2025 04:26:59.336] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/6791, l='ServerLevel[world]', x=-877.80, y=79.00, z=466.74] died: [Lvl.0] Sheep was slain by ALEss0312qr
+[21Dec2025 04:27:03.233] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/6790, l='ServerLevel[world]', x=-875.01, y=77.00, z=467.54] died: [Lvl.0] Sheep was slain by ALEss0312qr
+[21Dec2025 04:27:08.447] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SpitterEntity['[Lvl.0] Spitter'/14278, l='ServerLevel[world]', x=-884.50, y=67.00, z=520.50]
+[21Dec2025 04:27:34.050] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SpitterEntity['[Lvl.0] Spitter'/14728, l='ServerLevel[world]', x=-899.50, y=43.00, z=500.50]
+[21Dec2025 04:27:47.530] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GoblinEntity['[Lvl.0] Goblin'/14154, l='ServerLevel[world]', x=-959.80, y=80.00, z=510.31] died: [Lvl.0] Goblin was slain by Jhonxd591
+[21Dec2025 04:27:48.924] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GoblinWarriorEntity['[Lvl.0] Goblin Warrior'/14308, l='ServerLevel[world]', x=-961.08, y=80.88, z=510.55] died: [Lvl.0] Goblin Warrior was slain by Jhonxd591
+[21Dec2025 04:27:52.966] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GoblinEntity['[Lvl.0] Goblin'/14155, l='ServerLevel[world]', x=-964.21, y=80.00, z=511.77] died: [Lvl.0] Goblin was slain by Jhonxd591
+[21Dec2025 04:27:56.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALEss0312qr has made the advancement [Economy]
+[21Dec2025 04:28:18.772] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/13731, l='ServerLevel[world]', x=-988.48, y=78.00, z=529.15] died: [Lvl.0] Sheep was slain by Jhonxd591
+[21Dec2025 04:28:33.348] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SpitterEntity['[Lvl.0] Spitter'/15474, l='ServerLevel[world]', x=-947.50, y=24.00, z=586.50]
+[21Dec2025 04:28:55.365] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/13730, l='ServerLevel[world]', x=-975.54, y=77.00, z=515.66] died: [Lvl.0] Sheep was slain by Jhonxd591
+[21Dec2025 04:29:02.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALEss0312qr was slain by Jhonxd591
+[21Dec2025 04:29:02.205] [Server thread/INFO] [gravestone/]: The death ID of player ALEss0312qr is 169c2cf5-7485-437a-bd1f-752dcca9e76b
+[21Dec2025 04:29:03.583] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [ALEss0312qr]
+[21Dec2025 04:29:03.583] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [ALEss0312qr]
+[21Dec2025 04:29:04.998] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SpitterEntity['[Lvl.0] Spitter'/15803, l='ServerLevel[world]', x=-13.50, y=25.00, z=-40.50]
+[21Dec2025 04:29:11.524] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/13729, l='ServerLevel[world]', x=-984.77, y=71.00, z=487.77] died: [Lvl.0] Sheep was slain by Jhonxd591
+[21Dec2025 04:30:50.883] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/13732, l='ServerLevel[world]', x=-988.17, y=76.00, z=523.18] died: [Lvl.0] Sheep was slain by Jhonxd591
+[21Dec2025 04:31:48.277] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cow['[Lvl.0] Cow'/13676, l='ServerLevel[world]', x=-963.52, y=83.00, z=574.93] died: [Lvl.0] Cow was slain by ALEss0312qr
+[21Dec2025 04:31:57.181] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cow['[Lvl.0] Cow'/13674, l='ServerLevel[world]', x=-976.52, y=91.25, z=563.56] died: [Lvl.0] Cow was slain by Jhonxd591
+[21Dec2025 04:32:02.184] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cow['[Lvl.0] Cow'/13675, l='ServerLevel[world]', x=-977.32, y=91.00, z=583.38] died: [Lvl.0] Cow was slain by Jhonxd591
+[21Dec2025 04:32:05.080] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Horse['[Lvl.0] Horse'/13739, l='ServerLevel[world]', x=-972.15, y=92.00, z=583.86] died: [Lvl.0] Horse was slain by Jhonxd591
+[21Dec2025 04:32:31.097] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SpitterEntity['[Lvl.0] Spitter'/17836, l='ServerLevel[world]', x=-728.50, y=35.00, z=468.50]
+[21Dec2025 04:32:31.815] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity DebugMobmorphEntity['[Lvl.0] entity.iter_rpg.debug_mobmorph'/17363, l='ServerLevel[world]', x=-751.50, y=78.00, z=480.50] died: [Lvl.0] entity.iter_rpg.debug_mobmorph suffocated in a wall
+[21Dec2025 04:32:33.781] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/6829, l='ServerLevel[world]', x=-806.46, y=91.00, z=496.77] died: [Lvl.0] Sheep was slain by ALEss0312qr
+[21Dec2025 04:32:37.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/6832, l='ServerLevel[world]', x=-805.21, y=91.00, z=488.45] died: [Lvl.0] Sheep was slain by ALEss0312qr
+[21Dec2025 04:32:42.578] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['[Lvl.0] Sheep'/6831, l='ServerLevel[world]', x=-816.89, y=86.00, z=476.55] died: [Lvl.0] Sheep was slain by ALEss0312qr
+[21Dec2025 04:33:29.388] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Horse['[Lvl.0] Horse'/6766, l='ServerLevel[world]', x=-831.74, y=80.00, z=397.07] died: [Lvl.0] Horse was slain by ALEss0312qr
